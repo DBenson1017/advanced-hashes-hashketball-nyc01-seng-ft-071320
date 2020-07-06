@@ -216,7 +216,8 @@ def player_numbers(name)
     biggest_shoe = 0 
     rebounds = 0 
     game_hash.each do |team, team_value| 
-      team_values[:players][:shoe]
+      team_values[:players].each do |name|
+        
     
     
   end 
