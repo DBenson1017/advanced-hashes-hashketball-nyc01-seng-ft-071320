@@ -216,7 +216,8 @@ def player_numbers(name)
     biggest_shoe = 0 
     rebounds = 0 
     game_hash.each do |location, properties|
-      propertioes.each do ||
+      propertioes.each do |attributes, data|
+        if 
      
   end 
 
