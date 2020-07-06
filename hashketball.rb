@@ -222,9 +222,7 @@ def player_numbers(name)
         if attribute == :players 
           data.each do |key, value|
               binding.pry 
-            if value[:shoe] > biggest_shoe
-              biggest_shoe = value[:shoe]
-              value[:rebounds] = rebounds 
+         
             end 
           end 
         end 
