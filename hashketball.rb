@@ -217,7 +217,7 @@ def player_numbers(name)
     rebounds = 0 
     game_hash.each do |team, team_value| 
       team_values[:players].each do |name|
-        
+        if :player[name] 
     
     
   end 
