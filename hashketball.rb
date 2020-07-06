@@ -223,15 +223,15 @@ def player_numbers(name)
           data.each do |key|
             if key[:shoe] > biggest_shoe
               biggest_shoe = key[:shoe]
-              binding.pry 
-              return 'hio'
-         end
+              rebounds = key[:rebounds]
+            end 
           end
-      end 
-    end 
-            
-     
-  end 
+        end
+      end
+    end
+   return rebounds 
+  end
+
 
     
     
