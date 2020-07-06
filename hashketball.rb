@@ -217,7 +217,7 @@ def player_numbers(name)
     rebounds = 0 
     game_hash.each do |home_away, team_value| 
       team_value.each do |property, value|
-        if value[:shoe] > biggest_shoe 
+        if value.each[:shoe] > biggest_shoe 
           value[:shoe] = biggest_shoe
           rebounds = value[:rebounds]
           binding.pry 
