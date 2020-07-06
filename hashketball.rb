@@ -218,7 +218,8 @@ def player_numbers(name)
     game_hash.each do |location, properties|
       propertioes.each do |attributes, data|
         if attribute == :players 
-          data.each do |key, value|
+          data.each do |value|
+            
             
      
   end 
