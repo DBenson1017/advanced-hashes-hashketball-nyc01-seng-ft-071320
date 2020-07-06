@@ -217,7 +217,7 @@ def player_numbers(name)
     rebounds = 0 
     game_hash.each do |location, properties|
       
-      propertioes.each do |attribute, data|
+      properties.each do |attribute, data|
         binding.pry 
         if attribute == :players 
           data.each do |value|
