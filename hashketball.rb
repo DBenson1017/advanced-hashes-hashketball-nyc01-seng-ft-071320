@@ -219,7 +219,14 @@ def player_numbers(name)
       propertioes.each do |attributes, data|
         if attribute == :players 
           data.each do |value|
-            
+            if value[:shoe] > biggest_shoe
+              biggest_shoe = value[:shoe]
+              value[:rebounds] = rebounds 
+            end 
+          end 
+        end 
+        return rebounds 
+      end 
             
      
   end 
