@@ -216,26 +216,15 @@ def player_numbers(name)
     biggest_shoe = 0 
     
     
+  end 
+  
     
-    game_hash.each do |home, hash|
-      hash.each do |team_name, hash_2|
-        if team_name == :players
-     
-           
-            binding.pry
-            return 'hi'
-            if shoe == :shoe 
-              return 'hi'
-         
-          binding.pry 
-    end 
-        end 
-      end 
-    end
-      end 
-    end 
-    end 
-      
+    
+    
+    
+    
+    
+   
 
     
     # largest shoe size 
