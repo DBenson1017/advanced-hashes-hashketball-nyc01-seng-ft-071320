@@ -217,7 +217,8 @@ def player_numbers(name)
     rebounds = 0 
     game_hash.each do |location, properties|
       propertioes.each do |attributes, data|
-        if 
+        if attribute == :players 
+          
      
   end 
 
