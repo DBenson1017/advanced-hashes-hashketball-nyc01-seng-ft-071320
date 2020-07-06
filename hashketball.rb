@@ -222,10 +222,9 @@ def player_numbers(name)
         if attribute == :players 
           data.each do |key, value|
               binding.pry 
+              return 'hio'
          
-            end 
           end
-        return rebounds 
       end 
     end 
             
