@@ -223,6 +223,7 @@ def player_numbers(name)
           binding.pry 
         end 
       end 
+      end 
     end 
     rebounds 
   end 
