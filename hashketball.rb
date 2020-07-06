@@ -220,7 +220,7 @@ def player_numbers(name)
         if name[:shoe] > biggest_shoe 
           name[:shoe] = biggest_shoe
           rebounds = name[:rebounds]-1
-          binding.pry 
+     
         end 
       end 
     end 
