@@ -216,7 +216,10 @@ def player_numbers(name)
     biggest_shoe = 0 
     rebounds = 0 
     game_hash.each do |team, team_value| 
-      team_value[:players].each do |name|
+      team_value[:players].each do |i|
+        i[:shoe].each do |num|
+          binding.pry 
+        end 
         if name[:shoe] > biggest_shoe 
           name[:shoe] = biggest_shoe
           rebounds = name[:rebounds]
