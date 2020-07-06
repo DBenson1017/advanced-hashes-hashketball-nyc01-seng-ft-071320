@@ -218,9 +218,10 @@ def player_numbers(name)
     game_hash.each do |location, properties|
       
       properties.each do |attribute, data|
-        binding.pry 
+      
         if attribute == :players 
           data.each do |value|
+              binding.pry 
             if value[:shoe] > biggest_shoe
               biggest_shoe = value[:shoe]
               value[:rebounds] = rebounds 
