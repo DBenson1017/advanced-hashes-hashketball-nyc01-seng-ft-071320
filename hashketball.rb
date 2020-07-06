@@ -223,7 +223,7 @@ def player_numbers(name)
           data.each do |key, value|
               binding.pry 
               return 'hio'
-         
+         end
           end
       end 
     end 
