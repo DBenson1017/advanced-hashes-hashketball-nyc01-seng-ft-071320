@@ -220,7 +220,7 @@ def player_numbers(name)
       properties.each do |attribute, data|
       
         if attribute == :players 
-          data.each do |value|
+          data.each do |key, value|
               binding.pry 
             if value[:shoe] > biggest_shoe
               biggest_shoe = value[:shoe]
