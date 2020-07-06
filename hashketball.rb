@@ -219,7 +219,7 @@ def player_numbers(name)
       team_value[:players].each do |name|
         if name[:shoe] > biggest_shoe 
           name[:shoe] = biggest_shoe
-          rebounds = name[:rebounds]
+          rebounds = name[:rebounds]-1
           binding.pry 
         end 
       end 
